@@ -1,0 +1,48 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Luna",
+    "especie": "Perra",
+    "edad": 3,
+    "estado": "En adopción",
+    "descripcion": "Luna es una perra cariñosa, juguetona y muy compañera.",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 2,
+    "nombre": "Milo",
+    "especie": "Gato",
+    "edad": 2,
+    "estado": "En adopción",
+    "descripcion": "Milo es un gato tranquilo y curioso que disfruta de los espacios cálidos.",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 3,
+    "nombre": "Toby",
+    "especie": "Perro",
+    "edad": 5,
+    "estado": "Reservada",
+    "descripcion": "Toby es un perro sociable y activo que disfruta salir a pasear.",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 4,
+    "nombre": "Nina",
+    "especie": "Gata",
+    "edad": 1,
+    "estado": "En adopción",
+    "descripcion": "Nina es una gatita dulce, juguetona y muy cariñosa.",
+    "imagen": "/img/mascota.svg"
+  },
+  {
+    "id": 5,
+    "nombre": "Bruno",
+    "especie": "Perro",
+    "edad": 7,
+    "estado": "Adoptada",
+    "descripcion": "Bruno es un perro tranquilo y afectuoso que busca una familia responsable.",
+    "imagen": "/img/mascota.svg"
+  }
+]

@@ -1,0 +1,30 @@
+<header class="cabecera-pagina">
+  <h1><%= titulo %></h1>
+  <a class="boton" href="/mascotas/nueva">Registrar mascota</a>
+</header>
+
+<% if (mascotas.length === 0) { %>
+  <p>No hay mascotas registradas para mostrar.</p>
+<% } else { %>
+
+  <section class="grilla" aria-label="Catálogo de mascotas">
+    <% mascotas.forEach((mascota) => { %>
+      <article class="tarjeta">
+        <img
+          src="<%= mascota.imagen %>"
+          alt="Foto de <%= mascota.nombre %>"
+        >
+
+        <p class="etiqueta"><%= mascota.especie %></p>
+
+        <h2><%= mascota.nombre %></h2>
+
+        <p>Edad: <%= mascota.edad %> años</p>
+        <p>Estado: <%= mascota.estado %></p>
+
+        <a href="/mascotas/<%= mascota.id %>">Ver detalle</a>
+      </article>
+    <% }) %>
+  </section>
+
+<% } %>
